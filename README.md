@@ -5,7 +5,7 @@
 Computer Engineering graduate focused on building intelligent systems using
 Agentic AI, Generative AI, Large Language Models, Machine Learning, and Computer Vision.
 
-I like building AI systems end-to-end — from model experimentation and data
+I enjoy building AI systems end-to-end — from model experimentation and data
 processing to backend architecture, API integration, databases, and user-facing applications.
 
 ---
@@ -32,8 +32,6 @@ structured candidate assessment.
 
 **Tech:** Python, FastAPI, Next.js, ElevenLabs, Groq, Gemini, Firebase, MongoDB, Qdrant
 
----
-
 ### ChequeTrak — Intelligent Cheque Processing & Verification System
 
 An end-to-end AI pipeline for extracting and validating handwritten and
@@ -57,10 +55,6 @@ Key components include:
 
 **Tech:** Python, YOLOv8, PyTorch, PaddleOCR, EasyOCR, TrOCR, OpenCV, Streamlit
 
-[View Repository](https://github.com/kajaredhruv433/Intelligent_Cheque_Data_Extractor)
-
----
-
 ### AI-Driven Energy Supply Chain Resilience Platform
 
 An AI-driven decision-support system designed to improve energy supply
@@ -82,8 +76,6 @@ It includes:
 
 **Tech:** Python, FastAPI, Qwen2.5, Hugging Face Transformers,
 Pandas, Scikit-learn, NLP, LLMs
-
----
 
 ### Intelligent Document AI for Field Extraction
 
@@ -188,6 +180,6 @@ University of Mumbai
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/dhruv-kajare-b060b0260/)  
-[GitHub](https://github.com/kajaredhruv433)  
+[LinkedIn](https://www.linkedin.com/in/dhruv-kajare-b060b0260/)
+
 Email: kajaredhruv3@gmail.com
