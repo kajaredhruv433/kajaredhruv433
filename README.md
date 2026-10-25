@@ -48,7 +48,6 @@ Key capabilities include:
 
 **Tech:** Python, FastAPI, GitHub API, GitHub OAuth, MongoDB, AI Agents, LLMs, Next.js
 
-**Repository:** [VectoraFix on GitHub](https://github.com/kajaredhruv433/VectoraFix)
 
 ### ChequeTrak — Intelligent Cheque Processing & Verification System
 
