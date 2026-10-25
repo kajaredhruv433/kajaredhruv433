@@ -14,40 +14,55 @@ processing to backend architecture, API integration, databases, and user-facing 
 
 ### Momentum — Agentic AI Recruitment & Voice Interview Platform
 
-An AI-powered recruitment platform that evolved into an adaptive, multi-panel
-agentic interviewer.
+An AI-powered recruitment platform built around an adaptive, multi-panel agentic interviewer that conducts interactive voice interviews and evaluates candidates dynamically.
 
-Momentum analyzes job requirements, company context, candidate information,
-and interview history to dynamically determine:
+Momentum analyzes job requirements, company context, candidate information, and interview responses to determine:
 
 - Interview panel composition and interviewer roles
-- Evaluation focus and required evidence
-- Which panel member should ask the next question
+- Evaluation criteria and required evidence
+- Which interviewer should ask the next question
 - Adaptive follow-up questions based on candidate responses
-- Whether the interview should continue, conclude, or launch a system-design task
+- Whether to continue, conclude, or initiate a system-design task
+- Structured candidate assessment and evidence-based feedback
 
-The latest version uses a unified reasoning agent with real-time voice
-interaction, adaptive interview stages, system-design evaluation, and
-structured candidate assessment.
+The platform combines unified agent reasoning, real-time voice interaction, adaptive interview stages, and system-design evaluation to deliver a more dynamic interview experience.
 
-**Tech:** Python, FastAPI, Next.js, ElevenLabs, Groq, Gemini, Firebase, MongoDB, Qdrant
+**Tech:** Python, FastAPI, Next.js, ElevenLabs, Groq, Gemini, Firebase, MongoDB
+
+### VectoraFix — Agentic AI Software Debugging & Repair Engine
+
+An AI-powered software engineering platform designed to investigate repository issues, identify root causes, implement code fixes, and validate changes through an agent-driven debugging workflow.
+
+VectoraFix connects AI-assisted reasoning with repository-level engineering operations to help developers move from error diagnosis to tested code changes.
+
+Key capabilities include:
+
+- GitHub repository integration and authorized code access
+- Repository inspection and issue investigation
+- AI-assisted root cause analysis and debugging
+- Automated code modification workflows
+- Test-driven validation of proposed fixes
+- MongoDB-backed application data management
+- Backend APIs for coordinating repository repair operations
+- A foundation for automating repetitive software maintenance tasks
+
+**Tech:** Python, FastAPI, GitHub API, GitHub OAuth, MongoDB, AI Agents, LLMs, Next.js
+
+**Repository:** [VectoraFix on GitHub](https://github.com/kajaredhruv433/VectoraFix)
 
 ### ChequeTrak — Intelligent Cheque Processing & Verification System
 
-An end-to-end AI pipeline for extracting and validating handwritten and
-printed information from Indian bank cheques.
+An end-to-end AI pipeline for extracting and validating handwritten and printed information from Indian bank cheques.
 
-The system combines specialized YOLOv8 detection models with OCR,
-confidence-based fallback recognition, handwritten text recognition,
-image preprocessing, and validation logic.
+The system combines specialized YOLOv8 detection models with OCR, confidence-based fallback recognition, handwritten text recognition, image preprocessing, and domain-specific validation.
 
 Key components include:
 
 - YOLOv8-based cheque field detection
 - PaddleOCR primary recognition
-- EasyOCR and TrOCR fallback
-- Fine-tuned Transformer-based handwriting recognition
-- OpenCV preprocessing
+- EasyOCR and TrOCR fallback recognition
+- Transformer-based handwriting recognition
+- OpenCV image preprocessing
 - MICR validation
 - Amount cross-verification
 - Confidence-based OCR routing
@@ -57,14 +72,9 @@ Key components include:
 
 ### AI-Driven Energy Supply Chain Resilience Platform
 
-An AI-driven decision-support system designed to improve energy supply
-chain resilience for import-dependent economies.
+An AI-driven decision-support system designed to improve energy supply chain resilience for import-dependent economies by combining geopolitical intelligence, supplier risk assessment, maritime route analysis, and LLM-based reasoning.
 
-The platform combines geopolitical intelligence, real-time news processing,
-supplier risk assessment, maritime route analysis, sanctions, diplomatic
-risk, and LLM-based reasoning.
-
-It includes:
+Key components include:
 
 - Route Intelligence Engine
 - Supplier Preference Engine
@@ -73,24 +83,12 @@ It includes:
 - LLM-based structured insight extraction
 - Dynamic supplier risk assessment
 - Maritime chokepoint analysis
+- Sanctions and diplomatic risk assessment
 
-**Tech:** Python, FastAPI, Qwen2.5, Hugging Face Transformers,
-Pandas, Scikit-learn, NLP, LLMs
-
-### Intelligent Document AI for Field Extraction
-
-An end-to-end document intelligence system for extracting structured
-information from scanned tractor quotations and invoice-like documents.
-
-The system uses specialized YOLOv8 models for field detection and a
-multilingual OCR pipeline with automatic language fallback.
-
-It also performs domain-specific normalization and validation using a
-database containing 500+ tractor models.
-
-**Tech:** Python, YOLOv8, PaddleOCR, OpenCV, OCR, Computer Vision
+**Tech:** Python, FastAPI, Qwen2.5, Hugging Face Transformers, Pandas, Scikit-learn, NLP, LLMs
 
 ---
+
 
 ## Areas of Interest
 
