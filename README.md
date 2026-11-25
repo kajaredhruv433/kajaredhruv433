@@ -1,162 +1,181 @@
-# Hi, I'm Dhruv Kajare
+# Hi, I'm Dhruv Kajare 👋
 
-### AI Engineer | Agentic AI | Generative AI | Machine Learning
+### Software Engineer | AI Engineer | Agentic Systems | Backend Engineering
 
-Computer Engineering graduate focused on building intelligent systems using
-Agentic AI, Generative AI, Large Language Models, Machine Learning, and Computer Vision.
+I build intelligent software systems where **AI reasoning meets real-world engineering**.
 
-I enjoy building AI systems end-to-end — from model experimentation and data
-processing to backend architecture, API integration, databases, and user-facing applications.
+My work spans backend architecture, AI-driven automation, multi-agent systems, machine learning pipelines, computer vision, API integrations, databases, and full-stack application development.
 
----
-
-## Featured Work
-
-### Momentum — Agentic AI Recruitment & Voice Interview Platform
-
-An AI-powered recruitment platform built around an adaptive, multi-panel agentic interviewer that conducts interactive voice interviews and evaluates candidates dynamically.
-
-Momentum analyzes job requirements, company context, candidate information, and interview responses to determine:
-
-- Interview panel composition and interviewer roles
-- Evaluation criteria and required evidence
-- Which interviewer should ask the next question
-- Adaptive follow-up questions based on candidate responses
-- Whether to continue, conclude, or initiate a system-design task
-- Structured candidate assessment and evidence-based feedback
-
-The platform combines unified agent reasoning, real-time voice interaction, adaptive interview stages, and system-design evaluation to deliver a more dynamic interview experience.
-
-**Tech:** Python, FastAPI, Next.js, ElevenLabs, Groq, Gemini, Firebase, MongoDB
-
-### VectoraFix — Agentic AI Software Debugging & Repair Engine
-
-An AI-powered software engineering platform designed to investigate repository issues, identify root causes, implement code fixes, and validate changes through an agent-driven debugging workflow.
-
-VectoraFix connects AI-assisted reasoning with repository-level engineering operations to help developers move from error diagnosis to tested code changes.
-
-Key capabilities include:
-
-- GitHub repository integration and authorized code access
-- Repository inspection and issue investigation
-- AI-assisted root cause analysis and debugging
-- Automated code modification workflows
-- Test-driven validation of proposed fixes
-- MongoDB-backed application data management
-- Backend APIs for coordinating repository repair operations
-- A foundation for automating repetitive software maintenance tasks
-
-**Tech:** Python, FastAPI, GitHub API, GitHub OAuth, MongoDB, AI Agents, LLMs, Next.js
-
-
-### ChequeTrak — Intelligent Cheque Processing & Verification System
-
-An end-to-end AI pipeline for extracting and validating handwritten and printed information from Indian bank cheques.
-
-The system combines specialized YOLOv8 detection models with OCR, confidence-based fallback recognition, handwritten text recognition, image preprocessing, and domain-specific validation.
-
-Key components include:
-
-- YOLOv8-based cheque field detection
-- PaddleOCR primary recognition
-- EasyOCR and TrOCR fallback recognition
-- Transformer-based handwriting recognition
-- OpenCV image preprocessing
-- MICR validation
-- Amount cross-verification
-- Confidence-based OCR routing
-- Streamlit-based processing interface
-
-**Tech:** Python, YOLOv8, PyTorch, PaddleOCR, EasyOCR, TrOCR, OpenCV, Streamlit
-
-### AI-Driven Energy Supply Chain Resilience Platform
-
-An AI-driven decision-support system designed to improve energy supply chain resilience for import-dependent economies by combining geopolitical intelligence, supplier risk assessment, maritime route analysis, and LLM-based reasoning.
-
-Key components include:
-
-- Route Intelligence Engine
-- Supplier Preference Engine
-- Procurement Decision Engine
-- Automated geopolitical news intelligence
-- LLM-based structured insight extraction
-- Dynamic supplier risk assessment
-- Maritime chokepoint analysis
-- Sanctions and diplomatic risk assessment
-
-**Tech:** Python, FastAPI, Qwen2.5, Hugging Face Transformers, Pandas, Scikit-learn, NLP, LLMs
+I enjoy taking complex problems and engineering systems that go beyond prototypes — combining intelligent decision-making, software architecture, data pipelines, integrations, and validation into functional applications.
 
 ---
 
+### What I Build
 
-## Areas of Interest
-
-- Agentic AI
-- Generative AI
-- Large Language Models
-- Multi-Agent Systems
-- Natural Language Processing
-- Computer Vision
-- Voice AI
-- Retrieval-Augmented Generation
-- Vector Search
-- Machine Learning
-- Deep Learning
-- AI Decision Systems
+- **Intelligent Systems:** Agentic AI workflows, LLM applications, multi-agent architectures, AI automation and decision systems.
+- **Software Engineering:** Backend services, API design, system architecture, integrations, databases, application logic and engineering workflows.
+- **Applied AI:** Machine learning, computer vision, NLP, OCR, voice AI and intelligent data processing.
+- **Developer Systems:** Automated debugging, repository analysis, code modification workflows and software validation.
 
 ---
 
-## Technical Skills
+# 🚀 Featured Engineering Projects
 
-**Languages & Core**
+## Momentum
+### Agentic AI Recruitment & Real-Time Voice Interview System
 
-Python, C++, JavaScript, TypeScript, SQL
+> An adaptive interview intelligence system that transforms traditional question-answer interviews into dynamic, context-aware evaluation sessions.
 
-**AI / Machine Learning**
+Momentum is engineered around an agentic interview orchestration architecture that dynamically manages interview progression rather than relying on predefined question sequences.
 
-PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers,
-Machine Learning, Deep Learning, NLP, Computer Vision,
-Object Detection, OCR, LLMs
+The system interprets candidate information, job requirements, interview context and live responses to orchestrate an evolving interview session.
 
-**Generative & Agentic AI**
+**Inside the system:**
 
-Agentic AI, Generative AI, LLM Applications,
-Multi-Agent Systems, RAG, Vector Search,
-AI Decision Systems
+- **Agentic Interview Orchestration:** A reasoning layer dynamically determines which interviewer should take the next turn, what competency should be evaluated and how the interview should progress.
+- **Multi-Panel Intelligence:** Simulates distinct interviewer perspectives such as technical, HR and hiring-manager evaluations while maintaining shared interview context.
+- **Adaptive Question Generation:** Generates follow-up questions based on previous responses, missing evidence, contradictions, vague explanations and the candidate's demonstrated knowledge.
+- **Dynamic Interview Control:** Determines whether to explore a topic further, transition between interview stages, conclude an evaluation or initiate a system-design assessment.
+- **Real-Time Voice Architecture:** Integrates speech recognition and voice synthesis into an interruptible conversational interface with controlled turn-taking.
+- **Context-Aware Evaluation:** Evaluates responses against role-specific competencies, evidence and assessment criteria instead of relying solely on isolated answers.
+- **System-Design Evaluation:** Extends interviews into structured problem-solving and architectural discussions.
+- **Backend Orchestration:** Connects AI reasoning, interview state, candidate information, conversational workflows and application services.
 
-**Backend & Databases**
+**Engineering focus:** Agent orchestration, real-time communication, state management, adaptive reasoning, API integration, conversational architecture and backend systems.
 
-FastAPI, Flask, REST APIs, MongoDB, Firebase, Qdrant
-
-**Web Development**
-
-React.js, Next.js, Node.js, HTML5, CSS
-
-**Tools**
-
-OpenCV, Streamlit, Git
+**Tech Stack:** Python, FastAPI, Next.js, ElevenLabs, Groq, Gemini, Firebase, MongoDB
 
 ---
 
-## Research & Publication
+## VectoraFix
+### Agentic AI Software Debugging & Automated Code Repair Engine
 
-**ChequeTrak: An Integrated Deep Learning Pipeline for Handwritten Text
-Extraction and Signature Region Extraction in Indian Bank Cheques**
+> An AI-driven software remediation system designed to investigate failures, trace root causes, generate targeted patches and validate software repairs through controlled engineering workflows.
 
-Published at the **2026 2nd International Conference on Computing,
-Communication and Green Engineering (CCGE)**.
+VectoraFix approaches software debugging as a structured engineering pipeline rather than a single LLM-generated answer.
+
+It coordinates repository investigation, code analysis, repair planning, isolated code modifications, independent review and verification.
+
+**Inside the system:**
+
+- **Incident Intelligence:** Ingests error logs, stack traces and incident evidence to identify failure symptoms and investigate potential root causes.
+- **Repository Intelligence:** Inspects repository structure, source code, dependencies, relevant files and existing tests to establish engineering context.
+- **Structural Code Analysis:** Uses code-aware inspection and AST-based analysis to understand relationships and identify relevant execution paths.
+- **Parallel Investigation:** Enables specialized investigation workflows to analyze different aspects of a software issue.
+- **Repair Planning:** Synthesizes investigation findings into a proposed repair strategy before modification.
+- **Human-in-the-Loop Approval:** Introduces an approval checkpoint before code changes are executed.
+- **Isolated Repair Execution:** Performs targeted modifications within disposable Docker environments to reduce the impact of repair operations on the host environment.
+- **Independent Code Review:** Examines generated patches and diffs for unintended changes, scope violations and potential regressions.
+- **Automated Verification:** Uses tests and verification checks to assess whether proposed fixes resolve the investigated issue.
+- **GitHub Integration:** Connects repository operations, commits and push workflows through GitHub APIs.
+- **Recovery-Aware Workflows:** Preserves repair artifacts to support recovery and retry when repository operations fail.
+
+**Engineering focus:** Software debugging automation, repository analysis, multi-agent orchestration, AST-based analysis, Docker isolation, patch generation, testing, GitHub integrations and fault-aware workflows.
+
+**Tech Stack:** Python, FastAPI, Next.js, LangGraph, LangChain, Gemini, MongoDB, Docker, GitHub API
 
 ---
 
-## Achievements
+## ChequeTrak
+### Intelligent Cheque Processing & Verification Pipeline
 
-- **2nd Prize — Vidyavardhini National Project Symposium (VNPS25)**
-- **Semifinalist — HPCL PowerLab Innovation Challenge**
-  - Top 34 teams out of 40,000+ participating teams
+> A multi-stage computer vision and OCR pipeline engineered to extract, normalize and verify information from handwritten and printed Indian bank cheques.
+
+ChequeTrak combines specialized object detection, multiple OCR engines, image preprocessing and domain-specific verification logic to transform cheque images into structured information.
+
+**Inside the pipeline:**
+
+- **Specialized Field Detection:** Uses eight dedicated YOLOv8 Nano models to detect cheque fields including payee name, date, amounts, account information, signature and MICR.
+- **Detection-Driven Processing:** Extracts individual regions of interest and routes them into specialized recognition workflows.
+- **Primary OCR Pipeline:** Uses PaddleOCR to recognize text from detected cheque regions.
+- **Fallback Recognition Architecture:** Routes challenging recognition cases through alternative OCR and transformer-based recognition using EasyOCR and TrOCR.
+- **Image Processing:** Applies image preprocessing and OpenCV-based transformations to improve recognition on challenging image regions.
+- **Text Normalization:** Converts extracted information into standardized formats for downstream validation.
+- **Financial Data Validation:** Cross-verifies numerical amounts against amounts written in words.
+- **MICR-Based Verification:** Uses MICR extraction and validation as part of cheque verification.
+- **Confidence-Aware Processing:** Integrates recognition confidence and fallback workflows to improve processing reliability.
+- **Structured Output:** Converts processed cheque information into structured data through a Streamlit-based interface.
+
+<escape>**Model Performance:**</escape> Achieved approximately **0.960 mAP@0.5** across the eight cheque-field detection models.
+
+**Engineering focus:** Computer vision, model specialization, OCR orchestration, fallback pipelines, image processing, validation logic and structured data extraction.
+
+**Tech Stack:** Python, YOLOv8, PyTorch, PaddleOCR, EasyOCR, TrOCR, OpenCV, Streamlit, NumPy, Pandas
+
+**Research:** Published at the 2026 2nd International Conference on Computing, Communication and Green Engineering (CCGE).
 
 ---
 
-## Copyright Registrations
+## AI-Driven Energy Supply Chain Resilience Platform
+### Intelligent Risk Analysis & Procurement Decision System
+
+> A decision-support architecture designed to assess energy supply-chain risks using geopolitical intelligence, supplier evaluation, maritime route analysis and AI-driven insights.
+
+The system combines external intelligence, structured risk evaluation and LLM-powered information extraction to support procurement and supply-chain decision-making for import-dependent economies.
+
+**Inside the system:**
+
+- **Geopolitical Intelligence Pipeline:** Processes geopolitical information and news relevant to energy supply-chain risks.
+- **Automated Intelligence Extraction:** Uses LLM-driven processing to extract structured insights from unstructured information.
+- **Supplier Risk Assessment:** Evaluates supplier-related risk factors to support comparative supplier analysis.
+- **Maritime Route Intelligence:** Analyzes routes and strategically important maritime chokepoints.
+- **Risk-Aware Procurement:** Integrates supplier and route intelligence into procurement-oriented decision workflows.
+- **Supplier Preference Engine:** Supports supplier prioritization based on contextual risk and decision factors.
+- **Decision Engine:** Combines multiple sources of intelligence into structured decision-support outputs.
+
+**Engineering focus:** AI information extraction, NLP pipelines, decision systems, data processing, risk modeling and modular backend architecture.
+
+**Tech Stack:** Python, FastAPI, Qwen2.5, Hugging Face Transformers, Pandas, Scikit-learn, NLP
+
+---
+
+# 🛠️ Technical Stack
+
+### Programming Languages
+
+`Python` `C++` `JavaScript` `TypeScript` `SQL`
+
+### Software & Backend Engineering
+
+`FastAPI` `Flask` `REST APIs` `Node.js` `MongoDB` `Firebase` `Git` `GitHub API`
+
+### AI & Machine Learning
+
+`PyTorch` `TensorFlow` `Scikit-learn` `Hugging Face Transformers` `Machine Learning` `Deep Learning` `NLP` `Computer Vision` `Object Detection` `OCR`
+
+### AI Systems & LLM Engineering
+
+`Agentic AI` `LLM Applications` `Multi-Agent Systems` `Generative AI` `RAG` `Vector Search` `AI Orchestration` `Prompt Engineering` `AI Decision Systems`
+
+### Web Development
+
+`React.js` `Next.js` `Node.js` `HTML5` `CSS`
+
+### Computer Vision & Data Processing
+
+`OpenCV` `Pandas` `NumPy` `Streamlit` `Image Processing` `Data Pipelines`
+
+---
+
+# 📚 Research & Publication
+
+### ChequeTrak: An Integrated Deep Learning Pipeline for Handwritten Text Extraction and Signature Region Extraction in Indian Bank Cheques
+
+Published at the **2026 2nd International Conference on Computing, Communication and Green Engineering (CCGE)**.
+
+Research focused on combining deep-learning-based cheque field detection, OCR architectures, handwritten text recognition and verification mechanisms into an integrated cheque processing pipeline.
+
+---
+
+# 🏆 Achievements
+
+- 🥈 **2nd Prize** — Vidyavardhini National Project Symposium (VNPS25)
+- 🏅 **Semifinalist** — HPCL PowerLab Innovation Challenge
+  - Selected among the Top 34 teams from 40,000+ participating teams.
+
+---
+
+# ©️ Software Copyright Registrations
 
 Software works registered with the **Copyright Office, Government of India**:
 
@@ -165,18 +184,24 @@ Software works registered with the **Copyright Office, Government of India**:
 
 ---
 
-## Education
+# 🎓 Education
 
-**B.E. Computer Engineering**  
+**Bachelor of Engineering — Computer Engineering**
+
 Vidyavardhini's College of Engineering & Technology  
 University of Mumbai
 
-**CGPA:** 8.45 / 10
+**CGPA: 8.45 / 10**
 
 ---
 
-## Connect
+# 🌐 Connect With Me
 
-[LinkedIn](https://www.linkedin.com/in/dhruv-kajare-b060b0260/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/dhruv-kajare-b060b0260/)
+- 📧 [Email](mailto:kajaredhruv3@gmail.com)
+- 💻 [GitHub](https://github.com/kajaredhruv433)
+- 🌐 [Portfolio](https://portfolio-tau-ruby-57.vercel.app/agentic-ai)
 
-Email: kajaredhruv3@gmail.com
+---
+
+*Building systems. Engineering solutions. Exploring intelligent software.*
